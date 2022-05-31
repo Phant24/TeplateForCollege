@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link rel="shortcut icon" href="../img/templates.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../style/normalize.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_line">
+        <p class="logo">Agency</p>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Gallary</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+      <div class="header_content">
+        <div class="header_txt">
+          <h1>Trusted<br />by every1</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and<br />
+            typesetting industry. Lorem Ipsum has been the<br />
+            industry's standard dummy text ever since the 1500s
+          </p>
+        </div>
+        <div class="block_form">
+          <p>Request a qoute</p>
+          <form action="">
+            <input
+              type="text"
+              placeholder="Full Name"
+              required
+              pattern="[A-Z][a-z]+\s[A-Z][a-z]+\w"
+              maxlength="20"
+            />
+            <input
+              type="email"
+              placeholder="Email Adreess"
+              required
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            />
+            <input
+              type="text"
+              placeholder="Phone Number"
+              required
+              pattern="+380[0-9]{2}-[0-9]{3}-[0-9]{4}"
+              maxlength="16"
+              value="+380"
+            />
+            <input type="text" placeholder="Country" [A-Z]{3} maxlength="3" />
+            <label for="agree"
+              ><input type="checkbox" id="agree" required />I accept the terms &
+              conditions</label
+            >
+            <input type="submit" value="send" />
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <h2><span>Our</span> Services</h2>
+      <div class="our_services">
+        <figure>
+          <img src="../img/heart.png" alt="Heart Icon" />
+          <figcaption>Making your trip beautiful and easier</figcaption>
+        </figure>
+        <figure>
+          <img src="../img/tools.png" alt="Tools Icon" />
+          <figcaption>Making your trip beautiful and easier</figcaption>
+        </figure>
+        <figure>
+          <img src="../img/idea.png" alt="Idea Icon" />
+          <figcaption>Ideas that will blow you out the blue.</figcaption>
+        </figure>
+        <figure>
+          <img src="../img/compass.png" alt="Compass Icon" />
+          <figcaption>Navigate your path to beautiful world.</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="services_underline">
+      <p>
+        We are in business for over 6 years providing amazing services to
+        client<br />
+        and people love them to the core. View our story to know more.
+      </p>
+      <button>Our story</button>
+    </div>
+    <div class="pricing">
+      <h3>pricing</h3>
+      <div class="start_card">
+        <article>
+          <p class="status">Starter</p>
+          <p class="price trail">free</p>
+          <p class="status_service">Free Service</p>
+          <p class="accounts_status">Multiple Accounts</p>
+          <p class="managment_status">Managment No</p>
+          <p class="data_status">--</p>
+          <p class="dlc_status">--</p>
+          <button>Try</button>
+        </article>
+        <article>
+          <p class="status">Business</p>
+          <p class="price">$97</p>
+          <p class="status_service">Free Service</p>
+          <p class="accounts_status">Multiple Accounts</p>
+          <p class="managment_status">Managment No</p>
+          <p class="data_status">Ultimated Data</p>
+          <p class="dlc_status">--</p>
+          <button>Sign Up</button>
+        </article>
+        <article>
+          <p class="status">Professional</p>
+          <p class="price">$297</p>
+          <p class="status_service">Free Service</p>
+          <p class="accounts_status">Multiple Accounts</p>
+          <p class="managment_status">Managment No</p>
+          <p class="data_status">Ultimated Data</p>
+          <p class="dlc_status">Whatever You Need</p>
+          <button>Sign Up</button>
+        </article>
+      </div>
+    </div>
+    <div class="under">
+      <div class="testimonial">
+        <h4>testimonial</h4>
+        <article>
+          <div>
+            <p>
+              I have been involved with this company<br />
+              for ages and just want to say this is<br />
+              a great work by designcoon.
+            </p>
+            <p>DJ Bravo - Frequent Travelera</p>
+          </div>
+          <img src="../img/happy_man.png" alt="" />
+        </article>
+        <article>
+          <div>
+            <p>I have been involved with this comapany for ages and just .</p>
+            <p>DJ Bravo - Frequent Travelera</p>
+          </div>
+          <img src="../img/happy_child.png" alt="" />
+        </article>
+      </div>
+
+      <div class="gallery">
+        <h4>gallery</h4>
+        <div>
+          <div id="girl"></div>
+          <div id="berrys"></div>
+          <div id="lemons"></div>
+          <div id="cup"></div>
+          <div id="legs"></div>
+          <div id="rock"></div>
+        </div>
+        <a href="#">VIEW MORE PICTURES</a>
+      </div>
+    </div>
+    <footer>
+      <p>
+        All Rights Reserved | 2016 | Designed with love by
+        <span>DesignCoon</span>
+      </p>
+      <p class="footer_logo">Agency</p>
+    </footer>
+  </body>
+</html>
